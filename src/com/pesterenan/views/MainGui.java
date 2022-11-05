@@ -47,7 +47,7 @@ public class MainGui extends JFrame implements ActionListener {
 		setTitle("MechPeste - Pesterenan"); //$NON-NLS-1$
 		setVisible(true);
 		setResizable(false);
-		setLocation(100, 100);
+		setLocation(100, 100); // Hardcoding the position is causing a cut window for anyone who has a small monitor on the left side of a larger one, see "https://i.imgur.com/nvtjyOx.png" for an example
 		setSize(dmsMainGui);
 
 		menuBar = new JMenuBar();
